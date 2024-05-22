@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(174, 174, 240);
+  
+}
+
+.container {
+  width: 80%;
+  
+}
+
+.content {
+  display: flex;
+  /* justify-content: center; */
+  /* flex-wrap: wrap; */
+}
+
+.left {
+  padding-left: 100px;
+  padding-top: 100px;
+  
+}
+
+.right {
+  padding-left: 300px;
+  padding-top: 40px;
+  font-size: 30px;
+}
+
+/* .left {
+  width: 365px;
+  height: 154px;
+} */
+
+ /* .right {
+  width: 365px;
+  height: 154px;
+  padding-top: 150px;
+  padding-right: 220px;
+  font-size: 20px;
+} */
+
+/*.text {
+  padding-top: 20px;
+}
+
+.second {
+  padding-left: 100px;
+  padding-bottom: 20px;
+} */
+
+/* .left {
+  display: flex;
+  justify-content: end;
+} */
+
+/* .messengers {
+  display: flex;
+  justify-content: center;
+}
+
+.fox {
+  padding: 20px 650px;
+  font-size: 60px;
+  color: blue;
+}
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.comment {
+  border-radius: 2px;
+  background-color: rgb(183, 242, 8);
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.icon {
+  margin-right: 20px;
+  padding-top: 75px;
+  font-size: 40px;
+  color: blue;
+  transition: all 0.2s ease;
+}
+
+.icon:hover {
+  font-size: 50px;
+  color: palevioletred;
+  transition: all 0.2s ease;
+} */
+
+@media screen and (max-width: 570px) {
+
+.content {
+  flex-wrap: wrap;
+}
+
+.container {
+  justify-content: center;
+  width: 100%;
+}
+
+.left {
+  padding: 0;
+}
+
+.right {
+  padding: 0;
+}
+
+* {
+  max-width: 400px;
+  padding-top: 5px;
+  padding-left: 18px;
+  padding-bottom: 5px;
+  margin: 0;
+  background-color: rgb(174, 174, 240);
+  overflow-x: hidden;
+}
+
+.fox {
+  margin-left: 150px;
+}
+
+.icon {
+  margin-left: 16px;
+  font-size: 40px;
+  color: blue;
+  transition: all 0.2s ease;
+}
+
+.icon:hover {
+  color: palevioletred;
+  transition: all 0.2s ease;
+}
+
+}
+
+@media screen and (max-width: 570px) {
+
+* {
+  max-width: 400px;
+  padding-top: 5px;
+  padding-left: 2px;
+  padding-bottom: 5px;
+  margin: 0;
+  background-color: rgb(174, 174, 240);
+  overflow-x: hidden;
+}
+}
